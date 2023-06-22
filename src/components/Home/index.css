@@ -44,6 +44,36 @@
   margin: 0;
 }
 
+.posts-empty-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 20px;
+}
+
+.posts-empty-image {
+  width: 30%;
+  margin: 0 0 20px 0;
+}
+
+.posts-empty-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #262626;
+  margin: 0 0 10px 0;
+}
+
+.posts-empty-description {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+  margin: 0 0 10px 0;
+}
+
 @media screen and (min-width: 768px) {
   .home-container {
     padding: 5px 40px;
@@ -51,5 +81,13 @@
 
   .posts-card {
     padding: 15px 0;
+  }
+
+  .posts-empty-heading {
+    font-size: 32px;
+  }
+
+  .posts-empty-description {
+    font-size: 20px;
   }
 }
